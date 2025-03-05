@@ -1,48 +1,31 @@
-Vending Machine
+# Vending Machine
 
 A simple command-line-based vending machine built with Node.js using the readline module. It simulates the process of inserting money, selecting a drink, and making a purchase. The available drinks and their prices are pre-configured, and users can purchase drinks if they have sufficient funds.
 
-Features
+> #### Features
+>
+> - Allows users to insert money in predefined amounts: $5, $10, $15, $20.
 
-Allows users to insert money in predefined amounts: $5, $10, $15, $20.
-Displays available drinks with their prices.
-Prompts users to select a drink after inserting money.
-Ensures sufficient balance before making a purchase.
-Allows users to purchase another drink or exit.
-Requirements
+> - Displays available drinks with their prices.
 
-Node.js version 12.x or later.
-How to Use
+> - Prompts users to select a drink after inserting money.
 
-Clone or download the repository.
-Open a terminal in the project directory.
-Run the script:
-node vendingMachine.js
-Follow the on-screen prompts:
-Insert money in predefined amounts ($5, $10, $15, $20).
-Choose a drink from the list (Coca Cola, Pepsi, Orange).
-If your balance is sufficient, the drink will be dispensed.
-Decide if you want another drink or exit the vending machine.
-Available Drinks & Prices
+> - Ensures sufficient balance before making a purchase.
 
-Coca Cola - $3.35
-Pepsi - $2.10
-Orange - $2.85
-Example Interaction
+> - Allows users to purchase another drink or exit.
+>
 
-Insert money ($5, $10, $15, $20): 10
-Balance: $10.00
+> #### Requirements
+>
+> - Node.js version 12.x or later.
 
-Available Drinks:
-Coca Cola - $3.35
-Pepsi - $2.10
-Orange - $2.85
+>
 
-Select a drink: Pepsi
-Pepsi purchased! Remaining balance: $7.90
+> #### How to Use
 
-Do you want another drink? (yes/no): yes
-...
-License
+1. Clone or download the repository.
+2. Open a terminal in the project directory.
+3. Run the script:
+```bash 
+node vendingMachine.js```
 
-This project is licensed under the MIT License.
