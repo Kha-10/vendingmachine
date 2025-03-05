@@ -26,7 +26,9 @@ A simple command-line-based vending machine built with Node.js using the readlin
 1. Clone or download the repository.
 2. Open a terminal in the project directory.
 3. Run the script:
-```bash node vendingMachine.js ```
+```bash 
+node vendingMachine.js 
+```
 4.Follow the on-screen prompts:
 - Insert money in predefined amounts ($5, $10, $15, $20).
 - Choose a drink from the list (Coca Cola, Pepsi, Orange).
